@@ -1,1 +1,1 @@
-Quick script to look at $GME are report results
+Quick script to look at $GME and report results
