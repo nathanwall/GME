@@ -2,8 +2,8 @@
 # -*- coding: utf-8 -*-
 
 import os
-import numpy as np
-import pandas as pd
+#import numpy as np
+#import pandas as pd
 from termcolor import colored
 from time import sleep
 
@@ -29,10 +29,10 @@ while(True):
 
     if current_price != previous_price:
         if current_price > start_price:
-            os.system('clear') # clear terminal
+            os.system('cls') # clear terminal
             print("GME: {}".format(colored(current_price, 'green', attrs=['bold',])))
         else:
-            os.system('clear')
+            os.system('cls')
             print("GME: {}".format(colored(current_price, 'red')))
         print("low: {}\t\thigh: {}".format(lowest, highest))
         previous_price = current_price
